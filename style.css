@@ -1,0 +1,265 @@
+*{
+    font-family:cursive;
+}
+
+/*tablet view*/
+@media(max-width:768px){
+    body{
+        font-size: 14px;;
+
+    }
+}
+
+/*mobile view*/
+@media(max-width:480px){
+    body{
+        font-size: 12px;;
+
+    }
+}
+
+.container{
+    height: 40px;
+    width: 100%;
+    /* border: 2px solid red; */
+    
+    background-color: rgb(2, 73, 2);
+}
+.onebox{
+   
+    color: aliceblue;
+    padding:6px;
+    display:inline-flexbox;
+    text-decoration: none;
+    justify-content:space-around ;
+    justify-content: space-between;
+    float: left;
+    height: 20px;
+    width: 40%; 
+}
+
+.onebox i:hover{
+    color:orange;
+}
+
+.onebox i{
+    margin-left: 20px;
+    display: inline-block;
+    color:aliceblue;
+}
+
+.twobox{
+    float: left;
+    height: 20px;
+    width: 40%;
+    color:aliceblue;
+}
+
+.twobox :hover{
+    color:yellowgreen;
+}
+
+.container2{
+    height: 100px;
+    width: 100%;
+}
+.img{
+    /* border:  2px solid black; */
+    margin-right: 10px;
+    padding: 0px;
+    height: 100px;
+}
+
+.logobox{
+    display:inline-flexbox;
+    color: rgb(2, 73, 2);
+    font-size:30px;
+    padding:0;
+    margin-right: 400px;
+    align-items:left;
+    /* border:  3px solid black; */
+}
+
+
+.search{
+float: center;
+padding-top: 10px;
+height: 20px;
+width: 40%;
+
+}
+
+.magnify :hover{
+    color:rgb(171, 122, 5);
+}
+
+.magnify{
+    height: 30px;
+    width: 30px;
+    border-radius: 0%;
+    background-color: rgb(245, 215, 24);
+    border: none;
+    color: white;
+    box-shadow: 2px 2px 5px  rgb(245, 215, 24);
+}
+
+.help {
+    display: inline-block;
+    padding: 10px;
+    color: rgb(2, 73, 2); 
+     
+}
+
+a{
+    color: rgb(2, 73, 2);
+    text-decoration: none;
+}
+
+.help :hover{
+    color:orangered;
+}
+
+
+.login {
+    display: inline-block;
+    padding:10px;
+    color: rgb(2, 73, 2);
+    
+}
+
+.login :hover{
+    color:orangered;
+}
+
+.shoppingcart{
+    display: inline-block;
+    color: rgb(2, 73, 2);
+    font-size: large;
+}
+
+.shoppingcart :hover{
+    color:rgb(171, 122, 5);
+}
+
+
+.container3{
+   background-color:  rgb(2, 73, 2);
+   color:aliceblue;
+   padding:10px;
+   display: inline-flexbox;
+   justify-content:space-around ;
+   /* justify-content: space-between; */
+}
+
+.container3 a{
+    margin-left: 20px;
+    display:inline-block;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.container3 a:hover{
+    color:orangered;
+}
+
+.container2{
+    display:flex;
+    align-items: center;
+    /* border: 2px solid black; */
+    /* margin-left: 100px; */
+    /* justify-content:space-between; */
+}
+
+.heading{
+    display: inline-flexbox;
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgb(245, 249, 249);
+}
+
+.head{
+    display: inline-block;
+} 
+
+.text{
+    font-family: cursive;
+    color: rgb(28, 86, 28);
+    background-color: rgb(245, 249, 249);
+}
+
+h2{
+    color: rgb(5, 61, 13);
+    font-family: cursive;
+}
+
+
+.images img{
+    padding: 5px 10px 5px 10px;  
+    width: 350px;
+}
+
+.images{
+    background-color: blanchedalmond;
+}
+
+.indoorplants img{
+    padding: 10px 30px 10px 30px;
+    
+}
+
+.indoorplants{
+    display: inline-flexbox;
+}
+
+.a{
+    display: inline-block;
+    text-align: center;
+}
+
+.b{
+    display: inline-block;
+    text-align: center;
+}
+
+.c{
+    display: inline-block;
+    text-align: center;
+}
+
+.d{
+    display: inline-block;
+    text-align: center;
+}
+
+button{
+    width: 150px;
+    border-radius: 25px;
+    background-color: rgb(2, 73, 2);
+    color:white;
+}
+
+.button1:hover{
+    background-color:rgb(235, 240, 245);
+    color: rgb(2, 73, 2);
+}
+
+.price{
+    color:rgb(86, 83, 83);
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(147, 238, 166);
+    color:rgb(4, 45, 6);
+    padding: 20px;
+}
+
+.footerlogo{
+    display: inline-flexbox;
+}
+
+.footer{
+    display: inline-block;
+    color: rgb(8, 44, 8);
+    font-size:30px;
+}
